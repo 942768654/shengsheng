@@ -16,7 +16,7 @@ import java.util.List;
 public class UserController {
 @Autowired
 private UserService userService;
-    @RequestMapping("/user2222")
+    @RequestMapping("/user2222222")
     @ResponseBody
     public Object run(@RequestParam(defaultValue = "1") Integer currentPage,@RequestParam(defaultValue = "5") Integer pageSize){
         PageHelper.startPage(currentPage,pageSize);
